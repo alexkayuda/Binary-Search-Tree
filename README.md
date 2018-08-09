@@ -2,7 +2,7 @@
 
 *This is a smaller version of an existing software application that was developed to analyze large text data. It generates a report that contains the following information:*
 
-#### Statistical Summary should display the following information:
+#### Statistical Summary:
 - Total  number  of  words  in  the  report 
 - Number  of  unique  words 
 - Number  of  unique  words  of  more  than  three  letters 
@@ -10,12 +10,12 @@
 - Average  sentence  length
 - An index (alphabetical  listing) of all the unique words 
 
-#### Approprialte Style Warnings will only be displayed if:
+#### Style Warnings:
 
-- ... a word was used too often. (lists each unique word of more than three letters if its usage is more than 5% of the total
+- if any word was used too often. (lists each unique word of more than three letters if its usage is more than 5% of the total
 number of words of more than three letters).
-- ... the average sentence length is greater than 10.
-- ... the average word length is greater than 5.
+- if average sentence length is greater than 10.
+- if average word length is greater than 5.
 
 -------
 ## Example
@@ -39,10 +39,10 @@ interface is compRised oF;;;; refraction is mathematically represented by Snellâ
 *Program generates a report at specified location (creates and writes to a text file)*
 
 
-*E.g.: /Users/machineName/Desktop/report.txt <- .txt file will be created which will contain the following data*
+*E.g.: /Users/machineName/Desktop/report.txt*
 
 
-*Note: Program will ignore all punctuation and special symbols. Moreover, it will convert every word to lower case*
+*Note: Program will ignore all punctuation and special symbols.*
 ```
 File Name: /Users/machineName/Desktop/article.txt
 ==============================================================================
